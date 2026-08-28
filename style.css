@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --primary: #e11d48;
   --primary-dark: #be123c;
   --bg: #fafafa;
@@ -101,4 +101,37 @@ main { padding: 60px 0; }
   .hero-stats { gap: 12px; }
   .hero-stats > div { padding: 8px 16px; }
   .hero-stats strong { font-size: 1.3rem; }
+}
+/* ====== Language Switcher ====== */
+.lang-switcher {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.lang-btn {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateY(-1px);
+}
+
+.lang-btn.active {
+  background: var(--primary, #e11d48);
+  border-color: var(--primary, #e11d48);
+  color: #fff;
+  font-weight: 700;
 }
