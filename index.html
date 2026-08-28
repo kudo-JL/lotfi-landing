@@ -10,20 +10,25 @@
   <header class="hero">
     <div class="container">
       <div class="hero-badge">🇲🇦 المغرب</div>
-      <h1>مرحباً، أنا <span class="highlight">Jamei Lotfi</span> 👋</h1>
-      <p class="hero-sub">مطوّر مغربي. هنا كل مشاريعي الرقمية.</p>
-      <div class="hero-stats">
-        <div><strong>1</strong> مشروع شغّال</div>
-        <div><strong>5</strong> مشاريع قادمة</div>
-        <div><strong>100%</strong> مجاني</div>
+      <div class="lang-switcher">
+        <button onclick="setLang('ar')" class="lang-btn" data-lang="ar">🇲🇦 العربية</button>
+        <button onclick="setLang('fr')" class="lang-btn" data-lang="fr">🇫🇷 FR</button>
+        <button onclick="setLang('en')" class="lang-btn" data-lang="en">🇬🇧 EN</button>
+      </div>
+            <h1><span data-i18n="welcome">مرحباً، أنا</span> <span class="highlight">Jamei Lotfi</span> 👋</h1>
+            <p class="hero-sub" data-i18n="heroDesc">مطوّر مغربي. هنا كل مشاريعي الرقمية.</p>
+            <div class="hero-stats">
+        <div><strong>1</strong> <span data-i18n="statLive">مشروع شغّال</span></div>
+        <div><strong>5</strong> <span data-i18n="statUpcoming">مشاريع قادمة</span></div>
+        <div><strong>100%</strong> <span data-i18n="statFree">مجاني</span></div>
       </div>
     </div>
   </header>
 
   <main class="container">
     <section class="projects">
-      <h2>📦 مشاريعي</h2>
-      <p class="muted">قائمة بكل المشاريع — الشغالة والقادمة.</p>
+            <h2>📦 <span data-i18n="projectsTitle">مشاريعي</span></h2>
+      <p class="muted" data-i18n="projectsDesc">قائمة بكل المشاريع — الشغالة والقادمة.</p>
 
       <div class="projects-grid">
 <!---->
@@ -32,73 +37,72 @@
           <div class="project-icon">🛍️
 </div>
 
-
-          <span class="status-badge status-live">يعمل الآن</span>
-          <h3>jlstore</h3>
-          <p>متجر إلكتروني بنظام dropshipping — بيع وشراء منتوجات رياضية 100%.</p>
+          <span class="status-badge status-live" data-i18n="statusLive">يعمل الآن</span>
+          <h3 jlstore</h3>
+          <p data-i18n-project="jlstore">متجر إلكتروني بنظام dropshipping — بيع وشراء منتوجات رياضية 100%.</p>
           <div class="tech-stack"><span>Node.js</span><span>SQLite</span><span>PWA</span></div>
           <div class="project-links">
-            <a href="https://shop.jl.ma" class="btn btn-primary">🛒 زيارة المتجر</a>
+            <a href="https://shop.jl.ma" class="btn btn-primary" data-i18n="visitStore">🛒 زيارة المتجر</a>
           </div>
         </article>
 
         <!-- ⚽ football-app -->
         <article class="project-card" data-status="soon">
           <div class="project-icon">⚽</div>
-          <span class="status-badge status-soon">قريباً</span>
+          <span class="status-badge status-soon" data-i18n="statusSoon">قريباً</span>
           <h3>football-app</h3>
-          <p>تطبيق كرة القدم — متابعة النتائج، الترتيبات، الأخبار.</p>
+          <p data-i18n-project="footballApp">تطبيق كرة القدم — متابعة النتائج، الترتيبات، الأخبار.</p>
           <div class="tech-stack"><span>Mobile</span><span>Android</span><span>iOS</span></div>
           <div class="project-links">
-            <a href="#" class="btn btn-disabled">⏳ قريباً</a>
+            <a href="#" class="btn btn-disabled" data-i18n="comingSoon">⏳ قريباً</a>
           </div>
         </article>
 
         <!-- ⚽ football-app v2 -->
         <article class="project-card" data-status="soon">
           <div class="project-icon">⚽</div>
-          <span class="status-badge status-soon">قريباً</span>
+          <span class="status-badge status-soon" data-i18n="statusSoon">قريباً</span>
           <h3>football-app v2</h3>
-          <p>النسخة الثانية — مزايا إضافية، توقعات ذكية، إشعارات.</p>
+          <p data-i18n-project="footballAppV2">النسخة الثانية — مزايا إضافية، توقعات ذكية، إشعارات.</p>
           <div class="tech-stack"><span>Mobile</span><span>AI</span></div>
           <div class="project-links">
-            <a href="#" class="btn btn-disabled">⏳ قريباً</a>
+            <a href="#" class="btn btn-disabled" data-i18n="comingSoon">⏳ قريباً</a>
           </div>
         </article>
 
         <!-- 💬 chat -->
         <article class="project-card" data-status="soon">
           <div class="project-icon">💬</div>
-          <span class="status-badge status-soon">قريباً</span>
+          <span class="status-badge status-soon" data-i18n="statusSoon">قريباً</span>
           <h3>chat</h3>
-          <p>منصة تواصل اجتماعي — كل الميزات في مكان واحد.</p>
+          <p data-i18n-project="chat">منصة تواصل اجتماعي — كل الميزات في مكان واحد.</p>
           <div class="tech-stack"><span>Real-time</span><span>Web</span></div>
           <div class="project-links">
-            <a href="#" class="btn btn-disabled">⏳ قريباً</a>
+            <a href="#" class="btn btn-disabled" data-i18n="comingSoon">⏳ قريباً</a>
           </div>
         </article>
 
         <!-- 💬 chat2 -->
         <article class="project-card" data-status="soon">
           <div class="project-icon">💬</div>
-          <span class="status-badge status-soon">قريباً</span>
+          <span class="status-badge status-soon" data-i18n="statusSoon">قريباً</span>
           <h3>chat2</h3>
-          <p>منصة ثانية — الشات منفصل عن التصفح.</p>
+          <p data-i18n-project="chat2">منصة ثانية — الشات منفصل عن التصفح.</p>
           <div class="tech-stack"><span>WebSocket</span><span>PWA</span></div>
           <div class="project-links">
-            <a href="#" class="btn btn-disabled">⏳ قريباً</a>
+            <a href="#" class="btn btn-disabled" data-i18n="comingSoon">⏳ قريباً</a>
           </div>
         </article>
 
         <!-- 💱 souk -->
         <article class="project-card" data-status="soon">
           <div class="project-icon">💱</div>
-          <span class="status-badge status-soon">قريباً</span>
+          <span class="status-badge status-soon" data-i18n="statusSoon">قريباً</span>
           <h3>souk</h3>
-          <p>موقع بيع وشراء — إعلانات، تفاوض، توصيل محلي.</p>
+          <p data-i18n-project="souk">موقع بيع وشراء — إعلانات، تفاوض، توصيل محلي.</p>
           <div class="tech-stack"><span>Marketplace</span><span>P2P</span></div>
           <div class="project-links">
-            <a href="#" class="btn btn-disabled">⏳ قريباً</a>
+            <a href="#" class="btn btn-disabled" data-i18n="comingSoon">⏳ قريباً</a>
           </div>
         </article>
 
@@ -106,8 +110,8 @@
     </section>
 
     <section class="contact">
-      <h2>📬 تواصل</h2>
-      <p class="muted">مهتم بمشروع؟ تواصل معي.</p>
+            <h2>📬 <span data-i18n="contactTitle">تواصل</span></h2>
+      <p class="muted" data-i18n="contactDesc">مهتم بمشروع؟ تواصل معي.</p>
       <div class="contact-links">
         <a href="mailto:support@lotfi.ma" class="btn btn-ghost">📧 Email</a>
         <a href="https://t.me/kudojl" class="btn btn-ghost">💬 Telegram</a>
@@ -118,9 +122,12 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 24/08/2026 <strong>JL</strong> — كل الحقوق محفوظة</p>
-      <p class="muted small">صُنع بـ ❤️ في المغرب</p>
+            <p>© 24/08/2026 <strong>JL</strong> — <span data-i18n="footerCopy">كل الحقوق محفوظة</span></p>
+      <p class="muted small" data-i18n="footerMade">صُنع بـ ❤️ في المغرب</p>
     </div>
-  </footer>
+    </footer>
+
+  <script src="script.js"></script>
+  <script src="translation.js"></script>
 </body>
 </html>
