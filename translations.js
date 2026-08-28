@@ -1,0 +1,94 @@
+// ====== Translations for lotfi.ma ======
+// Languages: AR (default), FR, EN
+// Usage: data-i18n="key" or data-i18n-project="key"
+
+const translations = {
+  ar: {
+    // Hero
+    welcome: "مرحباً، أنا",
+    heroDesc: "مطوّر مغربي. هنا كل مشاريعي الرقمية.",
+    statLive: "مشروع شغّال",
+    statUpcoming: "مشاريع قادمة",
+    statFree: "مجاني",
+    
+    // Projects section
+    projectsTitle: "مشاريعي",
+    projectsDesc: "قائمة بكل المشاريع — الشغالة والقادمة.",
+    
+    // Status
+    statusLive: "يعمل الآن",
+    statusSoon: "قريباً",
+    visitStore: "زيارة المتجر",
+    comingSoon: "قريباً",
+    
+    // Contact
+    contactTitle: "تواصل",
+    contactDesc: "مهتم بمشروع؟ تواصل معي.",
+    
+    // Footer
+    footerCopy: "كل الحقوق محفوظة",
+    footerMade: "صُنع بـ ❤️ في المغرب",
+    
+    // Project descriptions
+    projects: {
+      jlstore: "متجر إلكتروني بنظام dropshipping — بيع وشراء منتوجات رياضية 100%.",
+      footballApp: "تطبيق كرة القدم — متابعة النتائج، الترتيبات، الأخبار.",
+      footballAppV2: "النسخة الثانية — مزايا إضافية، توقعات ذكية، إشعارات.",
+      chat: "منصة تواصل اجتماعي — كل الميزات في مكان واحد.",
+      chat2: "منصة ثانية — الشات منفصل عن التصفح.",
+      souk: "موقع بيع وشراء — إعلانات، تفاوض، توصيل محلي."
+    }
+  },
+  
+  fr: {
+    welcome: "Bonjour, je suis",
+    heroDesc: "Développeur marocain. Voici tous mes projets digitaux.",
+    statLive: "Projet en ligne",
+    statUpcoming: "Projets à venir",
+    statFree: "Gratuit",
+    projectsTitle: "Mes projets",
+    projectsDesc: "Liste de tous les projets — en ligne et à venir.",
+    statusLive: "En ligne",
+    statusSoon: "Bientôt",
+    visitStore: "Visiter la boutique",
+    comingSoon: "Bientôt",
+    contactTitle: "Contact",
+    contactDesc: "Intéressé par un projet ? Contactez-moi.",
+    footerCopy: "Tous droits réservés",
+    footerMade: "Fait avec ❤️ au Maroc",
+    projects: {
+      jlstore: "E-commerce en dropshipping — vente et achat de produits sportifs 100%.",
+      footballApp: "Application de football — suivre les scores, classements, actualités.",
+      footballAppV2: "Version 2 — fonctionnalités supplémentaires, prédictions intelligentes, notifications.",
+      chat: "Plateforme de réseau social — toutes les fonctionnalités en un seul endroit.",
+      chat2: "Deuxième plateforme — chat séparé de la navigation.",
+      souk: "Site d'achat/vente — annonces, négociation, livraison locale."
+    }
+  },
+  
+  en: {
+    welcome: "Hi, I'm",
+    heroDesc: "Moroccan developer. Here are all my digital projects.",
+    statLive: "Live project",
+    statUpcoming: "Upcoming projects",
+    statFree: "Free",
+    projectsTitle: "My projects",
+    projectsDesc: "List of all projects — live and upcoming.",
+    statusLive: "Live",
+    statusSoon: "Coming soon",
+    visitStore: "Visit store",
+    comingSoon: "Coming soon",
+    contactTitle: "Contact",
+    contactDesc: "Interested in a project? Get in touch.",
+    footerCopy: "All rights reserved",
+    footerMade: "Made with ❤️ in Morocco",
+    projects: {
+      jlstore: "E-commerce dropshipping — buy and sell sports products 100%.",
+      footballApp: "Football app — follow scores, rankings, news.",
+      footballAppV2: "Version 2 — extra features, smart predictions, notifications.",
+      chat: "Social media platform — all features in one place.",
+      chat2: "Second platform — chat separated from browsing.",
+      souk: "Buy/sell site — ads, negotiation, local delivery."
+    }
+  }
+};
