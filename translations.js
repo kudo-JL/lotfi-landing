@@ -1,7 +1,6 @@
 // ====== Translations for lotfi.ma ======
 // Languages: AR (default), FR, EN
 // Usage: data-i18n="key" or data-i18n-project="key"
-
 const translations = {
   ar: {
     // Hero
@@ -28,6 +27,16 @@ const translations = {
     // Footer
     footerCopy: "كل الحقوق محفوظة",
     footerMade: "صُنع بـ ❤️ في المغرب",
+    
+    // Legal
+    legalTitle: "معلومات قانونية",
+    legalSubtitle: "مقاول ذاتي مسجل بالمغرب",
+    aeStatus: "مقاول ذاتي",
+    aeNumberLabel: "رقم السجل",
+    ifLabel: "رقم الضريبة",
+    cnieLabel: "البطاقة الوطنية",
+    dateLabel: "تاريخ التسجيل",
+    contactLabel: "للتواصل",
     
     // Project descriptions
     projects: {
@@ -56,6 +65,17 @@ const translations = {
     contactDesc: "Intéressé par un projet ? Contactez-moi.",
     footerCopy: "Tous droits réservés",
     footerMade: "Fait avec ❤️ au Maroc",
+    
+    // Legal
+    legalTitle: "Mentions Légales",
+    legalSubtitle: "Auto-entrepreneur enregistré au Maroc",
+    aeStatus: "Auto-Entrepreneur",
+    aeNumberLabel: "N° de Registre",
+    ifLabel: "N° IF",
+    cnieLabel: "CNIE",
+    dateLabel: "Date d'immatriculation",
+    contactLabel: "Contact",
+    
     projects: {
       jlstore: "E-commerce en dropshipping — vente et achat de produits sportifs 100%.",
       footballApp: "Application de football — suivre les scores, classements, actualités.",
@@ -82,6 +102,17 @@ const translations = {
     contactDesc: "Interested in a project? Get in touch.",
     footerCopy: "All rights reserved",
     footerMade: "Made with ❤️ in Morocco",
+    
+    // Legal
+    legalTitle: "Legal Notice",
+    legalSubtitle: "Sole trader registered in Morocco",
+    aeStatus: "Auto-Entrepreneur",
+    aeNumberLabel: "Registration N°",
+    ifLabel: "Tax ID",
+    cnieLabel: "National ID",
+    dateLabel: "Registration Date",
+    contactLabel: "Contact",
+    
     projects: {
       jlstore: "E-commerce dropshipping — buy and sell sports products 100%.",
       footballApp: "Football app — follow scores, rankings, news.",
