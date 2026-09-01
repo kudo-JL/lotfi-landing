@@ -20,8 +20,7 @@ a { text-decoration: none; color: inherit; }
 .hero {
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
   color: #fff;
-  padding: 80px 0 100px;
-  text-align: center;
+  padding: 50px 0 60px;
 }
 .hero-badge {
   display: inline-block; background: rgba(255,255,255,.1);
@@ -207,7 +206,142 @@ main {
   color: #fff;
   font-weight: 700;
 }
+/* ====== Hero Split Layout (Hybrid) ====== */
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 40px;
+  align-items: center;
+}
+.hero-info { text-align: center; }
 
+.hero-ad {
+  padding-inline-start: 40px;
+  border-inline-start: 2px dashed rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.ad-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ad-icon {
+  background: var(--primary);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.ad-title {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.ad-section-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: #cbd5e1;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+.ad-section-label .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+.ad-section-label.live .dot { background: #4ade80; }
+.ad-section-label.soon .dot { background: #fbbf24; }
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.3); }
+}
+.ad-scroll-wrap {
+  height: 105px;
+  overflow: hidden;
+  position: relative;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+}
+.ad-scroll-track {
+  display: flex;
+  flex-direction: column;
+  animation: scroll-up 10s linear infinite;
+}
+.ad-scroll-track:hover {
+  animation-play-state: paused;
+}
+@keyframes scroll-up {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+.ad-scroll-wrap.live-track .ad-scroll-track {
+  animation-duration: 8s;
+}
+.ad-scroll-wrap.soon-track .ad-scroll-track {
+  animation-duration: 14s;
+}
+.ad-project {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+  margin-bottom: 4px;
+  flex-shrink: 0;
+}
+.ad-project:hover { background: rgba(255, 255, 255, 0.1); }
+.ad-project .icon { font-size: 1rem; }
+.ad-project.live { color: #4ade80; }
+.ad-project.soon { color: #fbbf24; }
+.ad-project .badge {
+  font-size: 0.65rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-inline-start: auto;
+  font-weight: 600;
+}
+.ad-project.live .badge {
+  background: rgba(74, 222, 128, 0.15);
+  color: #4ade80;
+}
+.ad-project.soon .badge {
+  background: rgba(251, 191, 36, 0.15);
+  color: #fbbf24;
+}
+@media (max-width: 768px) {
+  .hero-content { grid-template-columns: 1fr; }
+  .hero-ad {
+    border-inline-start: none;
+    border-top: 2px dashed rgba(255, 255, 255, 0.2);
+    padding-inline-start: 0;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+}
 @media (max-width: 600px) {
   .hero { padding: 50px 0 60px; }
   .hero-stats { gap: 12px; }
