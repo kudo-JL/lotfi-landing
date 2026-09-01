@@ -39,10 +39,12 @@ const translations = {
     contactLabel: "للتواصل",
     
     // Project descriptions
+    storeName: "المتجر البسيط",
+    sportName: "رياضة",
     projects: {
-      jlstore: "متجر إلكتروني بنظام dropshipping — بيع وشراء منتوجات رياضية 100%.",
+      mediatorStore: "متجر إلكتروني متعدد الأقسام — كل ما تحتاجه في مكان واحد.",
       footballApp: "تطبيق كرة القدم — متابعة النتائج، الترتيبات، الأخبار.",
-      footballAppV2: "النسخة الثانية — مزايا إضافية، توقعات ذكية، إشعارات.",
+      sport: "تجدون في الموقع نتائج وترتيب البطولات المغربية (سيتم إضافة جميع البطولات لاحقا).",
       chat: "منصة تواصل اجتماعي — كل الميزات في مكان واحد.",
       chat2: "منصة ثانية — الشات منفصل عن التصفح.",
       souk: "موقع بيع وشراء — إعلانات، تفاوض، توصيل محلي."
@@ -75,11 +77,13 @@ const translations = {
     cnieLabel: "N° de Patente",
     dateLabel: "Date d'immatriculation",
     contactLabel: "Contact",
-    
+
+    storeName: "Boutique Simple",
+    sportName: "Sport",
     projects: {
-      jlstore: "E-commerce en dropshipping — vente et achat de produits sportifs 100%.",
+      mediatorStore: "Marketplace complet — tout ce dont vous avez besoin au même endroit.",
       footballApp: "Application de football — suivre les scores, classements, actualités.",
-      footballAppV2: "Version 2 — fonctionnalités supplémentaires, prédictions intelligentes, notifications.",
+      sport: "vous trouverez sur le sire web les résultat et les classements des championnats marocains (tous les championnats seront ajoutés ultérieurement).",
       chat: "Plateforme de réseau social — toutes les fonctionnalités en un seul endroit.",
       chat2: "Deuxième plateforme — chat séparé de la navigation.",
       souk: "Site d'achat/vente — annonces, négociation, livraison locale."
@@ -113,10 +117,12 @@ const translations = {
     dateLabel: "Registration Date",
     contactLabel: "Contact",
     
+    storeName: "Mediator Store",
+    sportName: "Sport",
     projects: {
-      jlstore: "E-commerce dropshipping — buy and sell sports products 100%.",
+      mediatorStore: "Multi-category marketplace — everything you need in one place.",
       footballApp: "Football app — follow scores, rankings, news.",
-      footballAppV2: "Version 2 — extra features, smart predictions, notifications.",
+      sport: "you will find on the website the results and strandings of championships (allchampionships will be added later",
       chat: "Social media platform — all features in one place.",
       chat2: "Second platform — chat separated from browsing.",
       souk: "Buy/sell site — ads, negotiation, local delivery."
