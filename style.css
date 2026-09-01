@@ -27,12 +27,12 @@ a { text-decoration: none; color: inherit; }
   padding: 6px 16px; border-radius: 999px; font-size: .9rem; margin-bottom: 20px;
   border: 1px solid rgba(255,255,255,.2);
 }
-.hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin: 0 0 16px; font-weight: 800; }
+.hero h1 { font-size: clamp(1.6rem, 3.5vw, 2.5rem); margin: 0 0 8px; font-weight: 800; line-height: 1.2; }
 .highlight { color: #f43f5e; }
-.hero-sub { font-size: 1.15rem; color: #cbd5e1; margin: 0 0 36px; }
-.hero-stats { display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; }
-.hero-stats > div { padding: 12px 24px; background: rgba(255,255,255,.05); border-radius: 12px; }
-.hero-stats strong { display: block; font-size: 1.6rem; color: #f43f5e; }
+.hero-sub { font-size: 0.95rem; color: #cbd5e1; margin: 0 0 16px; }
+.hero-stats { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.hero-stats > div { padding: 8px 16px; background: rgba(255,255,255,.05); border-radius: 10px; }
+.hero-stats strong { display: block; font-size: 1.3rem; color: #f43f5e; }
 
 main {
   padding: 60px 0;
