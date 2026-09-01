@@ -10,22 +10,122 @@
 </head>
 <body>
   <header class="hero">
-    <div class="container">
-      <div class="hero-badge">🇲🇦 المغرب</div>
-      <div class="lang-switcher">
-        <button onclick="setLang('ar')" class="lang-btn" data-lang="ar">🇲🇦 العربية</button>
-        <button onclick="setLang('fr')" class="lang-btn" data-lang="fr">🇫🇷 FR</button>
-        <button onclick="setLang('en')" class="lang-btn" data-lang="en">🇬🇧 EN</button>
+  <div class="container">
+    <div class="hero-content">
+      <!-- القسم الأول: معلوماتك -->
+      <div class="hero-info">
+        <div class="hero-badge">🇲🇦 المغرب</div>
+        <div class="lang-switcher">
+          <button onclick="setLang('ar')" class="lang-btn" data-lang="ar">🇲🇦 العربية</button>
+          <button onclick="setLang('fr')" class="lang-btn" data-lang="fr">🇫🇷 FR</button>
+          <button onclick="setLang('en')" class="lang-btn" data-lang="en">🇬🇧 EN</button>
+        </div>
+        <h1><span data-i18n="welcome">مرحباً، أنا</span> <span class="highlight">Jamei Lotfi</span> 👋</h1>
+        <p class="hero-sub" data-i18n="heroDesc">مطوّر مغربي. هنا كل مشاريعي الرقمية.</p>
+        <div class="hero-stats">
+          <div><strong>2</strong> <span data-i18n="statLive">مشروع شغّال</span></div>
+          <div><strong>4</strong> <span data-i18n="statUpcoming">مشاريع قادمة</span></div>
+          <div><strong>100%</strong> <span data-i18n="statFree">مجاني</span></div>
+        </div>
       </div>
-      <h1><span data-i18n="welcome">مرحباً، أنا</span> <span class="highlight">Jamei Lotfi</span> 👋</h1>
-      <p class="hero-sub" data-i18n="heroDesc">مطوّر مغربي. هنا كل مشاريعي الرقمية.</p>
-      <div class="hero-stats">
-        <div><strong>2</strong> <span data-i18n="statLive">مشروع شغّال</span></div>
-        <div><strong>4</strong> <span data-i18n="statUpcoming">مشاريع قادمة</span></div>
-        <div><strong>100%</strong> <span data-i18n="statFree">مجاني</span></div>
+
+      <!-- القسم الثاني: إعلان (Hybrid) -->
+      <div class="hero-ad">
+        <div class="ad-header">
+          <span class="ad-icon">📢 إعلان</span>
+          <span class="ad-title">قسم المشاريع</span>
+        </div>
+
+        <!-- قسم Live -->
+        <div>
+          <div class="ad-section-label live">
+            <span class="dot"></span>
+            <span>يعمل الآن</span>
+          </div>
+          <div class="ad-scroll-wrap live-track">
+            <div class="ad-scroll-track">
+              <div class="ad-project live">
+                <span class="icon">🛍️</span>
+                <span>المتجر البسيط</span>
+                <span class="badge">Live</span>
+              </div>
+              <div class="ad-project live">
+                <span class="icon">⚽</span>
+                <span>الرياضة</span>
+                <span class="badge">Live</span>
+              </div>
+              <div class="ad-project live">
+                <span class="icon">🛍️</span>
+                <span>المتجر البسيط</span>
+                <span class="badge">Live</span>
+              </div>
+              <div class="ad-project live">
+                <span class="icon">⚽</span>
+                <span>الرياضة</span>
+                <span class="badge">Live</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- شريط فاصل -->
+        <div style="height: 1px; background: rgba(255, 255, 255, 0.1); margin: 4px 0;"></div>
+
+        <!-- قسم Soon -->
+        <div>
+          <div class="ad-section-label soon">
+            <span class="dot"></span>
+            <span>قريباً</span>
+          </div>
+          <div class="ad-scroll-wrap soon-track">
+            <div class="ad-scroll-track">
+              <div class="ad-project soon">
+                <span class="icon">🛒⚽</span>
+                <span>المتجر الرياضي</span>
+                <span class="badge">Soon</span>
+              </div>
+              <div class="ad-project soon">
+                <span class="icon">🛠️</span>
+                <span>PockyTools</span>
+                <span class="badge">Soon</span>
+              </div>
+              <div class="ad-project soon">
+                <span class="icon">🎮</span>
+                <span>GameBox</span>
+                <span class="badge">Soon</span>
+              </div>
+              <div class="ad-project soon">
+                <span class="icon">👯</span>
+                <span>the-twin</span>
+                <span class="badge">Soon</span>
+              </div>
+              <div class="ad-project soon">
+                <span class="icon">🛒⚽</span>
+                <span>المتجر الرياضي</span>
+                <span class="badge">Soon</span>
+              </div>
+              <div class="ad-project soon">
+                <span class="icon">🛠️</span>
+                <span>PockyTools</span>
+                <span class="badge">Soon</span>
+              </div>
+              <div class="ad-project soon">
+                <span class="icon">🎮</span>
+                <span>GameBox</span>
+                <span class="badge">Soon</span>
+              </div>
+              <div class="ad-project soon">
+                <span class="icon">👯</span>
+                <span>the-twin</span>
+                <span class="badge">Soon</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </header>
+  </div>
+</header>
 
   <main class="container">
     <section class="projects">
