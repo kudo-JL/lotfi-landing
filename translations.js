@@ -18,6 +18,7 @@ const translations = {
     statusLive: "يعمل الآن",
     statusSoon: "قريباً",
     visitStore: "زيارة المتجر",
+    visitsport: "زيارة الموقع",
     comingSoon: "قريباً",
     
     // Contact
@@ -62,6 +63,7 @@ const translations = {
     statusLive: "En ligne",
     statusSoon: "Bientôt",
     visitStore: "Visiter la boutique",
+    visitsport: "Visiter le Site",
     comingSoon: "Bientôt",
     contactTitle: "Contact",
     contactDesc: "Intéressé par un projet ? Contactez-moi.",
@@ -101,6 +103,7 @@ const translations = {
     statusLive: "Live",
     statusSoon: "Coming soon",
     visitStore: "Visit store",
+    visitsport: "Visit Site",
     comingSoon: "Coming soon",
     contactTitle: "Contact",
     contactDesc: "Interested in a project? Get in touch.",
