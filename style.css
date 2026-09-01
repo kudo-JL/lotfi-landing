@@ -10,6 +10,8 @@
   --shadow-lg: 0 10px 30px rgba(0,0,0,.1);
 }
 
+[hidden] { display: none !important; }
+
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Cairo','Tajawal',system-ui,sans-serif; line-height: 1.6; }
 .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
@@ -90,18 +92,53 @@ main { padding: 60px 0; }
 .contact-links .btn-ghost { color: var(--primary); border-color: var(--border); background: #fff; }
 .contact-links .btn-ghost:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
 
+/* ====== Legal / Mentions Légales ====== */
+.legal {
+  margin-top: 60px;
+  padding: 40px 30px;
+  background: var(--surface);
+  border-radius: 16px;
+  text-align: center;
+}
+.legal h2 {
+  font-size: 1.6rem;
+  margin: 0 0 8px;
+  color: var(--text);
+}
+.legal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+  text-align: start;
+}
+.legal-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 16px;
+  background: var(--bg);
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.legal-label {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+.legal-value {
+  font-size: 1rem;
+  color: var(--text);
+  font-weight: 700;
+  font-family: 'Courier New', monospace;
+}
+
 .site-footer {
   background: #0f172a; color: #cbd5e1;
   padding: 30px 0; text-align: center; margin-top: 60px;
 }
 .site-footer p { margin: 4px 0; }
 
-@media (max-width: 600px) {
-  .hero { padding: 50px 0 60px; }
-  .hero-stats { gap: 12px; }
-  .hero-stats > div { padding: 8px 16px; }
-  .hero-stats strong { font-size: 1.3rem; }
-}
 /* ====== Language Switcher ====== */
 .lang-switcher {
   display: flex;
@@ -110,7 +147,6 @@ main { padding: 60px 0; }
   margin-bottom: 20px;
   flex-wrap: wrap;
 }
-
 .lang-btn {
   background: rgba(255, 255, 255, 0.08);
   color: #fff;
@@ -123,15 +159,22 @@ main { padding: 60px 0; }
   font-weight: 500;
   transition: all 0.2s ease;
 }
-
 .lang-btn:hover {
   background: rgba(255, 255, 255, 0.18);
   transform: translateY(-1px);
 }
-
 .lang-btn.active {
   background: var(--primary, #e11d48);
   border-color: var(--primary, #e11d48);
   color: #fff;
   font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .hero { padding: 50px 0 60px; }
+  .hero-stats { gap: 12px; }
+  .hero-stats > div { padding: 8px 16px; }
+  .hero-stats strong { font-size: 1.3rem; }
+  .legal-grid { grid-template-columns: 1fr; }
+  .legal { padding: 30px 20px; }
 }
