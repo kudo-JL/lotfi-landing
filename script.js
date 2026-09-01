@@ -10,23 +10,23 @@ function setLang(lang) {
 function applyTranslations() {
   const t = translations[currentLang];
   if (!t) return;
-  
+
   // ترجمة النصوص العادية (data-i18n)
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (t[key]) el.textContent = t[key];
   });
-  
+
   // ترجمة أوصاف المشاريع (data-i18n-project)
   document.querySelectorAll('[data-i18n-project]').forEach(el => {
     const key = el.getAttribute('data-i18n-project');
     if (t.projects && t.projects[key]) el.textContent = t.projects[key];
   });
-  
+
   // RTL للعربية، LTR لغيرها
   document.documentElement.dir = (currentLang === 'ar') ? 'rtl' : 'ltr';
   document.documentElement.lang = currentLang;
-  
+
   // تمييز الزر الفعّال
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === currentLang);
@@ -39,6 +39,7 @@ if (document.readyState === 'loading') {
 } else {
   applyTranslations();
 }
+
 
 // Smooth scroll for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(a => {
