@@ -35,7 +35,28 @@ a { text-decoration: none; color: inherit; }
 .hero-stats > div { padding: 12px 24px; background: rgba(255,255,255,.05); border-radius: 12px; }
 .hero-stats strong { display: block; font-size: 1.6rem; color: #f43f5e; }
 
-main { padding: 60px 0; }
+main {
+  padding: 60px 0;
+  position: relative;
+  background: 
+    /* Grid (نقاط خفيفة) */
+    radial-gradient(circle, rgba(15, 23, 42, 0.08) 1px, transparent 1.5px),
+    /* Aurora Blob 1 (Coral - أعلى يمين) */
+    radial-gradient(ellipse 80% 60% at 85% 15%, rgba(244, 63, 94, 0.45), transparent 55%),
+    /* Aurora Blob 2 (Teal - أسفل يسار) */
+    radial-gradient(ellipse 70% 50% at 10% 85%, rgba(20, 184, 166, 0.40), transparent 55%),
+    /* Aurora Blob 3 (Indigo - وسط) */
+    radial-gradient(ellipse 50% 40% at 50% 50%, rgba(99, 102, 241, 0.30), transparent 60%),
+    var(--bg);
+  background-size: 
+    24px 24px,
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    100% 100%;
+  background-attachment: scroll;
+  background-repeat: repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+}
 .projects h2 { font-size: 1.8rem; font-weight: 800; margin: 0 0 8px; }
 .muted { color: var(--muted); }
 .small { font-size: .85rem; }
@@ -47,13 +68,16 @@ main { padding: 60px 0; }
   margin-top: 30px;
 }
 .project-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 14px;
   padding: 24px;
   transition: all .25s ease;
   position: relative;
   display: flex; flex-direction: column; gap: 12px;
+  box-shadow: var(--shadow);
 }
 .project-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: var(--primary); }
 .project-card[data-status="soon"] { opacity: 0.85; }
@@ -86,7 +110,17 @@ main { padding: 60px 0; }
 .btn-disabled { background: #e2e8f0; color: #94a3b8; cursor: not-allowed; }
 .btn-disabled:hover { background: #e2e8f0; }
 
-.contact { margin-top: 80px; text-align: center; padding: 50px 0; background: var(--surface); border-radius: 16px; }
+.contact { 
+  margin-top: 80px; 
+  text-align: center; 
+  padding: 50px 0; 
+  background: rgba(255, 255, 255, 0.92); 
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 16px; 
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: var(--shadow);
+}
 .contact h2 { font-size: 1.6rem; margin: 0 0 8px; }
 .contact-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 20px; }
 .contact-links .btn-ghost { color: var(--primary); border-color: var(--border); background: #fff; }
@@ -96,9 +130,13 @@ main { padding: 60px 0; }
 .legal {
   margin-top: 60px;
   padding: 40px 30px;
-  background: var(--surface);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 16px;
   text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: var(--shadow);
 }
 .legal h2 {
   font-size: 1.6rem;
@@ -117,9 +155,9 @@ main { padding: 60px 0; }
   flex-direction: column;
   gap: 4px;
   padding: 12px 16px;
-  background: var(--bg);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 .legal-label {
   font-size: 0.8rem;
