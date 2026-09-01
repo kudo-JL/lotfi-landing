@@ -34,7 +34,7 @@ const translations = {
     aeStatus: "مقاول ذاتي",
     aeNumberLabel: "رقم السجل",
     ifLabel: "رقم الضريبة",
-    cnieLabel: "البطاقة الوطنية",
+    cnieLabel: "رقم الضريبة المهنية",
     dateLabel: "تاريخ التسجيل",
     contactLabel: "للتواصل",
     
@@ -72,7 +72,7 @@ const translations = {
     aeStatus: "Auto-Entrepreneur",
     aeNumberLabel: "N° de Registre",
     ifLabel: "N° IF",
-    cnieLabel: "CNIE",
+    cnieLabel: "N° de Patente",
     dateLabel: "Date d'immatriculation",
     contactLabel: "Contact",
     
@@ -109,7 +109,7 @@ const translations = {
     aeStatus: "Auto-Entrepreneur",
     aeNumberLabel: "Registration N°",
     ifLabel: "Tax ID",
-    cnieLabel: "National ID",
+    cnieLabel: "Professional Tax N°",
     dateLabel: "Registration Date",
     contactLabel: "Contact",
     
