@@ -15,9 +15,9 @@
         <button onclick="setLang('fr')" class="lang-btn" data-lang="fr">🇫🇷 FR</button>
         <button onclick="setLang('en')" class="lang-btn" data-lang="en">🇬🇧 EN</button>
       </div>
-            <h1><span data-i18n="welcome">مرحباً، أنا</span> <span class="highlight">Jamei Lotfi</span> 👋</h1>
-            <p class="hero-sub" data-i18n="heroDesc">مطوّر مغربي. هنا كل مشاريعي الرقمية.</p>
-            <div class="hero-stats">
+      <h1><span data-i18n="welcome">مرحباً، أنا</span> <span class="highlight">Jamei Lotfi</span> 👋</h1>
+      <p class="hero-sub" data-i18n="heroDesc">مطوّر مغربي. هنا كل مشاريعي الرقمية.</p>
+      <div class="hero-stats">
         <div><strong>1</strong> <span data-i18n="statLive">مشروع شغّال</span></div>
         <div><strong>5</strong> <span data-i18n="statUpcoming">مشاريع قادمة</span></div>
         <div><strong>100%</strong> <span data-i18n="statFree">مجاني</span></div>
@@ -27,7 +27,7 @@
 
   <main class="container">
     <section class="projects">
-            <h2>📦 <span data-i18n="projectsTitle">مشاريعي</span></h2>
+      <h2>📦 <span data-i18n="projectsTitle">مشاريعي</span></h2>
       <p class="muted" data-i18n="projectsDesc">قائمة بكل المشاريع — الشغالة والقادمة.</p>
 
       <div class="projects-grid">
@@ -37,8 +37,9 @@
           <div class="project-icon">🛍️
 </div>
 
+
           <span class="status-badge status-live" data-i18n="statusLive">يعمل الآن</span>
-          <h3> jlstore</h3>
+          <h3>jlstore</h3>
           <p data-i18n-project="jlstore">متجر إلكتروني بنظام dropshipping — بيع وشراء منتوجات رياضية 100%.</p>
           <div class="tech-stack"><span>Node.js</span><span>SQLite</span><span>PWA</span></div>
           <div class="project-links">
@@ -110,7 +111,7 @@
     </section>
 
     <section class="contact">
-            <h2>📬 <span data-i18n="contactTitle">تواصل</span></h2>
+      <h2>📬 <span data-i18n="contactTitle">تواصل</span></h2>
       <p class="muted" data-i18n="contactDesc">مهتم بمشروع؟ تواصل معي.</p>
       <div class="contact-links">
         <a href="mailto:support@lotfi.ma" class="btn btn-ghost">📧 Email</a>
@@ -118,17 +119,47 @@
         <a href="https://wa.me/212693016974" class="btn btn-ghost">📱 واتساب</a>
       </div>
     </section>
+
+    <section class="legal">
+      <h2>📜 <span data-i18n="legalTitle">Mentions Légales</span></h2>
+      <p class="muted" data-i18n="legalSubtitle">Auto-entrepreneur enregistré au Maroc</p>
+      <div class="legal-grid">
+        <div class="legal-item">
+          <span class="legal-label" data-i18n="aeStatus">Auto-Entrepreneur</span>
+          <span class="legal-value">Lotfi</span>
+        </div>
+        <div class="legal-item">
+          <span class="legal-label" data-i18n="aeNumberLabel">N° de Registre</span>
+          <span class="legal-value">00403017600042</span>
+        </div>
+        <div class="legal-item">
+          <span class="legal-label" data-i18n="ifLabel">N° IF</span>
+          <span class="legal-value">73333808</span>
+        </div>
+        <div class="legal-item">
+          <span class="legal-label" data-i18n="cnieLabel">CNIE</span>
+          <span class="legal-value">12404638</span>
+        </div>
+        <div class="legal-item">
+          <span class="legal-label" data-i18n="dateLabel">Date d'immatriculation</span>
+          <span class="legal-value">2026-08-28</span>
+        </div>
+        <div class="legal-item">
+          <span class="legal-label" data-i18n="contactLabel">Contact</span>
+          <span class="legal-value">support@lotfi.ma</span>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-            <p>© 24/08/2026 <strong>JL</strong> — <span data-i18n="footerCopy">كل الحقوق محفوظة</span></p>
+      <p>© 24/08/2026 <strong>JL</strong> — <span data-i18n="footerCopy">كل الحقوق محفوظة</span></p>
       <p class="muted small" data-i18n="footerMade">صُنع بـ ❤️ في المغرب</p>
     </div>
-    </footer>
+  </footer>
 
-    <script src="translations.js"></script>  <!-- 1. يحمّل الترجمات أولاً -->
-  <script src="script.js"></script>        <!-- 2. ثم يحمّل سكريبت التحكم -->
-</body>
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
