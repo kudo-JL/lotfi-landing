@@ -52,7 +52,7 @@ const translations = {
       sport: "تجدون في الموقع نتائج وترتيب البطولات المغربية (سيتم إضافة جميع البطولات لاحقا).",
       pockytools: "تطبيق أدوات متعدد الاستخدامات يجمع بين البساطة والقوة — مجموعة شاملة من الأدوات العملية التي تحتاجها يومياً في واجهة أنيقة وسلسة.",
       gamebox: "انطلق في مغامرة فريدة عبر سبع ألعاب مبتكرة موزعة على أربعة عوالم سحرية متدرجة الصعوبة. كل مرحلة تفتح أبواباً جديدة من التحدي والإثارة — هل تملك ما يلزم لتصبح البطل؟",
-      SYKP: "صممنا SYKP ليكون بسيطًا في الواجهة، قويًا في الجوهر. كل ميزة بُنيت لتوفر عليك الوقت وتحمي بياناتك."
+      SYKP: "صممنا SYKP ليكون بسيطًا في الواجهة، قويًا في الجوهر. كل ميزة بُنيت لتوفر عليك الوقت وتحمي بياناتك.",
     }
   },
   
@@ -96,7 +96,7 @@ const translations = {
       sport: "vous trouverez sur le sire web les résultat et les classements des championnats marocains (tous les championnats seront ajoutés ultérieurement).",
       pockytools: "Application d'outils polyvalents alliant simplicité et puissance — un ensemble complet d'outils pratiques dont vous avez besoin au quotidien, dans une interface élégante et fluide.",
       gamebox: "Plongez dans une aventure unique à travers sept jeux innovants répartis sur quatre mondes magiques à difficulté croissante. Chaque étape ouvre de nouveaux défis palpitants — avez-vous ce qu'il faut pour devenir le héros ?",
-      SYKP: "SYKP est simple en surface, puissant en profondeur. Chaque fonctionnalité est conçue pour vous faire gagner du temps et protéger vos données."
+      SYKP: "SYKP est simple en surface, puissant en profondeur. Chaque fonctionnalité est conçue pour vous faire gagner du temps et protéger vos données.",
     }
   },
   
@@ -140,7 +140,7 @@ const translations = {
       sport: "you will find on the website the results and strandings of championships (allchampionships will be added later",
       pockytools: "A versatile tools app combining simplicity and power — a comprehensive suite of practical tools you need daily, in a sleek and seamless interface.",
       gamebox: "Embark on a unique adventure through seven innovative games across four magical worlds of increasing difficulty. Each stage unlocks new challenges and thrills — do you have what it takes to become the hero?",
-      SYKP: "SYKP is simple on the surface, strong under the hood. Every feature is built to save you time and protect your data."
+      SYKP: "SYKP is simple on the surface, strong under the hood. Every feature is built to save you time and protect your data.",
     }
   }
 };
