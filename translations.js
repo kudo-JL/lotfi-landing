@@ -89,7 +89,7 @@ const translations = {
     sportName: "Sport",
     pockytoolsName: "PockyTools",
     gameboxName: "GameBox",
-   SYKPName: "Save-You-Key-Password",
+    SYKPName: "Save-You-Key-Password",
     projects: {
       mediatorStore: "Marketplace complet — tout ce dont vous avez besoin au même endroit.",
       sportsShop: "Boutique spécialisée en équipement sportif — tout ce dont l'athlète a besoin.",
