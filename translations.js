@@ -45,14 +45,14 @@ const translations = {
     sportName: "رياضة",
     pockytoolsName: "PockyTools",
     gameboxName: "GameBox",
-    theTwinName: "the-twin",
+    SYKPName: "Save-You-Key-Password",
     projects: {
       mediatorStore: "متجر إلكتروني متعدد الأقسام — كل ما تحتاجه في مكان واحد.",
       sportsShop: "متجر متخصص في بيع اللوازم الرياضية — كل ما يحتاجه الرياضي.",
       sport: "تجدون في الموقع نتائج وترتيب البطولات المغربية (سيتم إضافة جميع البطولات لاحقا).",
       pockytools: "تطبيق أدوات متعدد الاستخدامات يجمع بين البساطة والقوة — مجموعة شاملة من الأدوات العملية التي تحتاجها يومياً في واجهة أنيقة وسلسة.",
       gamebox: "انطلق في مغامرة فريدة عبر سبع ألعاب مبتكرة موزعة على أربعة عوالم سحرية متدرجة الصعوبة. كل مرحلة تفتح أبواباً جديدة من التحدي والإثارة — هل تملك ما يلزم لتصبح البطل؟",
-      theTwin: "عش المتعة والإثارة مع قصة الأخوين في عالم كرة القدم أدخل وإكتشف المغامرة بنفسك."
+      SYKP: "صممنا SYKP ليكون بسيطًا في الواجهة، قويًا في الجوهر. كل ميزة بُنيت لتوفر عليك الوقت وتحمي بياناتك."
     }
   },
   
@@ -89,14 +89,14 @@ const translations = {
     sportName: "Sport",
     pockytoolsName: "PockyTools",
     gameboxName: "GameBox",
-    theTwinName: "the-twin",
+   SYKPName: "Save-You-Key-Password",
     projects: {
       mediatorStore: "Marketplace complet — tout ce dont vous avez besoin au même endroit.",
       sportsShop: "Boutique spécialisée en équipement sportif — tout ce dont l'athlète a besoin.",
       sport: "vous trouverez sur le sire web les résultat et les classements des championnats marocains (tous les championnats seront ajoutés ultérieurement).",
       pockytools: "Application d'outils polyvalents alliant simplicité et puissance — un ensemble complet d'outils pratiques dont vous avez besoin au quotidien, dans une interface élégante et fluide.",
       gamebox: "Plongez dans une aventure unique à travers sept jeux innovants répartis sur quatre mondes magiques à difficulté croissante. Chaque étape ouvre de nouveaux défis palpitants — avez-vous ce qu'il faut pour devenir le héros ?",
-      theTwin: "Vivez le plaisir et l'excitation avec l'histoire des frères dans le monde du football, entrez et découvrez l'aventure par vous-même."
+      SYKP: "SYKP est simple en surface, puissant en profondeur. Chaque fonctionnalité est conçue pour vous faire gagner du temps et protéger vos données."
     }
   },
   
@@ -133,14 +133,14 @@ const translations = {
     sportName: "Sport",
     pockytoolsName: "PockyTools",
     gameboxName: "GameBox",
-    theTwinName: "the-twin",
+    theSYKPName: "Save-You-Key-Password",
     projects: {
       mediatorStore: "Multi-category marketplace — everything you need in one place.",
       sportsShop: "Specialized store for sports equipment — everything an athlete needs.",
       sport: "you will find on the website the results and strandings of championships (allchampionships will be added later",
       pockytools: "A versatile tools app combining simplicity and power — a comprehensive suite of practical tools you need daily, in a sleek and seamless interface.",
       gamebox: "Embark on a unique adventure through seven innovative games across four magical worlds of increasing difficulty. Each stage unlocks new challenges and thrills — do you have what it takes to become the hero?",
-      theTwin: "Live the fun and excitement with the story of the brothers in the football world, enter and discover the adventure yourself."
+      SYKP: "SYKP is simple on the surface, strong under the hood. Every feature is built to save you time and protect your data."
     }
   }
 };
