@@ -45,7 +45,7 @@ const translations = {
     sportName: "رياضة",
     pockytoolsName: "PockyTools",
     gameboxName: "GameBox",
-    SYKPName: "Save-You-Key-Password",
+    SYKPName: "SYKP",
     projects: {
       mediatorStore: "متجر إلكتروني متعدد الأقسام — كل ما تحتاجه في مكان واحد.",
       sportsShop: "متجر متخصص في بيع اللوازم الرياضية — كل ما يحتاجه الرياضي.",
@@ -89,7 +89,7 @@ const translations = {
     sportName: "Sport",
     pockytoolsName: "PockyTools",
     gameboxName: "GameBox",
-    SYKPName: "Save-You-Key-Password",
+    SYKPName: "SYKP",
     projects: {
       mediatorStore: "Marketplace complet — tout ce dont vous avez besoin au même endroit.",
       sportsShop: "Boutique spécialisée en équipement sportif — tout ce dont l'athlète a besoin.",
@@ -133,7 +133,7 @@ const translations = {
     sportName: "Sport",
     pockytoolsName: "PockyTools",
     gameboxName: "GameBox",
-    SYKPName: "Save-You-Key-Password",
+    SYKPName: "SYKP",
     projects: {
       mediatorStore: "Multi-category marketplace — everything you need in one place.",
       sportsShop: "Specialized store for sports equipment — everything an athlete needs.",
