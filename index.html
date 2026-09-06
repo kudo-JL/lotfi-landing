@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JL — مشاريعي</title>
+  <title id="pageTitle">JL — مشاريعي</title>
       <link rel="stylesheet" href="style.css">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <meta name="robots" content="index, follow">
@@ -30,103 +30,99 @@
       </div>
 
       <!-- القسم الثاني: إعلان (Hybrid) -->
-      <div class="hero-ad">
-        <div class="ad-header">
-          <span class="ad-icon">📢 إعلان</span>
-          <span class="ad-title">قسم المشاريع</span>
+<div class="hero-ad">
+  <div class="ad-header">
+    <span class="ad-icon">📢 <span data-i18n="adLabel">إعلان</span></span>
+    <span class="ad-title" data-i18n="adSection">قسم المشاريع</span>
+  </div>
+
+  <!-- قسم Live -->
+  <div>
+    <div class="ad-section-label live">
+      <span class="dot"></span>
+      <span data-i18n="statusLive">يعمل الآن</span>
+    </div>
+    <div class="ad-scroll-wrap live-track">
+      <div class="ad-scroll-track">
+        <div class="ad-project live">
+          <span class="icon">🛍️</span>
+          <span data-i18n="storeName">المتجر البسيط</span>
+          <span class="badge">Live</span>
         </div>
-
-        <!-- قسم Live -->
-        <div>
-          <div class="ad-section-label live">
-            <span class="dot"></span>
-            <span>يعمل الآن</span>
-          </div>
-          <div class="ad-scroll-wrap live-track">
-            <div class="ad-scroll-track">
-              <div class="ad-project live">
-                <span class="icon">🛍️</span>
-                <span>المتجر البسيط</span>
-                <span class="badge">Live</span>
-              </div>
-              <div class="ad-project live">
-                <span class="icon">🛒⚽</span>
-                <span>المتجر الرياضي</span>
-                <span class="badge">Live</span>
-              </div>
-              <div class="ad-project live">
-                <span class="icon">⚽</span>
-                <span>الرياضة</span>
-                <span class="badge">Live</span>
-              </div>
-              <div class="ad-project live">
-                <span class="icon">🛍️</span>
-                <span>المتجر البسيط</span>
-                <span class="badge">Live</span>
-              </div>
-              <div class="ad-project live">
-                <span class="icon">🛒⚽</span>
-                <span>المتجر الرياضي</span>
-                <span class="badge">Live</span>
-              </div>
-              <div class="ad-project live">
-                <span class="icon">⚽</span>
-                <span>الرياضة</span>
-                <span class="badge">Live</span>
-              </div>
-            </div>
-          </div>
+        <div class="ad-project live">
+          <span class="icon">🛒⚽</span>
+          <span data-i18n="sportsShopName">المتجر الرياضي</span>
+          <span class="badge">Live</span>
         </div>
-
-        <!-- شريط فاصل -->
-        <div style="height: 1px; background: rgba(255, 255, 255, 0.1); margin: 4px 0;"></div>
-
-        <!-- قسم Soon -->
-        <div>
-          <div class="ad-section-label soon">
-            <span class="dot"></span>
-            <span>قريباً</span>
-          </div>
-          <div class="ad-scroll-wrap soon-track">
-            <div class="ad-scroll-track">
-              <div class="ad-project soon">
-                <span class="icon">🛠️</span>
-                <span>PockyTools</span>
-                <span class="badge">Soon</span>
-              </div>
-              <div class="ad-project soon">
-                <span class="icon">🎮</span>
-                <span>GameBox</span>
-                <span class="badge">Soon</span>
-              </div>
-              <div class="ad-project soon">
-                <span class="icon">🔐</span>
-                <span>SYKP</span>
-                <span class="badge">Soon</span>
-              </div>
-              <div class="ad-project soon">
-                <span class="icon">🛠️</span>
-                <span>PockyTools</span>
-                <span class="badge">Soon</span>
-              </div>
-              <div class="ad-project soon">
-                <span class="icon">🎮</span>
-                <span>GameBox</span>
-                <span class="badge">Soon</span>
-              </div>
-              <div class="ad-project soon">
-                <span class="icon">🔐</span>
-                <span>SYKP</span>
-                <span class="badge">Soon</span>
-              </div>
-            </div>
-          </div>
+        <div class="ad-project live">
+          <span class="icon">⚽</span>
+          <span data-i18n="sportName">الرياضة</span>
+          <span class="badge">Live</span>
+        </div>
+        <div class="ad-project live">
+          <span class="icon">🛍️</span>
+          <span data-i18n="storeName">المتجر البسيط</span>
+          <span class="badge">Live</span>
+        </div>
+        <div class="ad-project live">
+          <span class="icon">🛒⚽</span>
+          <span data-i18n="sportsShopName">المتجر الرياضي</span>
+          <span class="badge">Live</span>
+        </div>
+        <div class="ad-project live">
+          <span class="icon">⚽</span>
+          <span data-i18n="sportName">الرياضة</span>
+          <span class="badge">Live</span>
         </div>
       </div>
     </div>
   </div>
-</header>
 
+  <!-- شريط فاصل -->
+  <div style="height: 1px; background: rgba(255, 255, 255, 0.1); margin: 4px 0;"></div>
+
+  <!-- قسم Soon -->
+  <div>
+    <div class="ad-section-label soon">
+      <span class="dot"></span>
+      <span data-i18n="statusSoon">قريباً</span>
+    </div>
+    <div class="ad-scroll-wrap soon-track">
+      <div class="ad-scroll-track">
+        <div class="ad-project soon">
+          <span class="icon">🛠️</span>
+          <span data-i18n="pockytoolsName">PockyTools</span>
+          <span class="badge">Soon</span>
+        </div>
+        <div class="ad-project soon">
+          <span class="icon">🎮</span>
+          <span data-i18n="gameboxName">GameBox</span>
+          <span class="badge">Soon</span>
+        </div>
+        <div class="ad-project soon">
+          <span class="icon">🔐</span>
+          <span data-i18n="SYKPName">SYKP</span>
+          <span class="badge">Soon</span>
+        </div>
+        <div class="ad-project soon">
+          <span class="icon">🛠️</span>
+          <span data-i18n="pockytoolsName">PockyTools</span>
+          <span class="badge">Soon</span>
+        </div>
+        <div class="ad-project soon">
+          <span class="icon">🎮</span>
+          <span data-i18n="gameboxName">GameBox</span>
+          <span class="badge">Soon</span>
+        </div>
+        <div class="ad-project soon">
+          <span class="icon">🔐</span>
+          <span data-i18n="SYKPName">SYKP</span>
+          <span class="badge">Soon</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   <main class="container">
     <section class="projects">
       <h2>📦 <span data-i18n="projectsTitle">مشاريعي</span></h2>
