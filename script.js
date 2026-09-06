@@ -1,48 +1,37 @@
 // ====== i18n (3 Languages: AR/FR/EN) ======
 let currentLang = localStorage.getItem('lang') || 'ar';
-
 function setLang(lang) {
   currentLang = lang;
   localStorage.setItem('lang', lang);
   applyTranslations();
 }
-
 function applyTranslations() {
   const t = translations[currentLang];
   if (!t) return;
-  
-  // ✅ أضف هذا السطر (لتحديث title)
-  if (t.pageTitle) document.title = t.pageTitle;
-  
   // ترجمة النصوص العادية (data-i18n)
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (t[key]) el.textContent = t[key];
   });
-  
   // ترجمة أوصاف المشاريع (data-i18n-project)
   document.querySelectorAll('[data-i18n-project]').forEach(el => {
     const key = el.getAttribute('data-i18n-project');
     if (t.projects && t.projects[key]) el.textContent = t.projects[key];
   });
-  
   // RTL للعربية، LTR لغيرها
   document.documentElement.dir = (currentLang === 'ar') ? 'rtl' : 'ltr';
   document.documentElement.lang = currentLang;
-  
   // تمييز الزر الفعّال
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === currentLang);
   });
 }
-
 // طبّق الترجمة عند تحميل الصفحة
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', applyTranslations);
 } else {
   applyTranslations();
 }
-
 // Smooth scroll for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
@@ -50,7 +39,6 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
   });
 });
-
 // Add fade-in animation on scroll
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
