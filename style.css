@@ -265,7 +265,13 @@ main {
   margin-top: 40px;
   font-size: 0.8rem;
   line-height: 1.5;
-  width: 100%;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  box-sizing: border-box;
 }
 .footer-row {
   display: flex;
