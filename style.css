@@ -276,13 +276,13 @@ main {
 .footer-row {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 32px;
   flex-wrap: wrap;
 }
 .footer-section {
-  flex: 1;
-  min-width: 180px;
+  flex: 0 1 auto;
+   min-width: 0;
 }
 .footer-section h3 {
   color: #fff;
