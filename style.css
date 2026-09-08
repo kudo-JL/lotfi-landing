@@ -276,13 +276,13 @@ main {
 .footer-row {
   display: flex;
   align-items: flex-start;
-  justify-content: space-evenly;
-  gap: 32px;
+  justify-content: space-between;  /* يدفع لليسار واليمين */
+  gap: 24px;
   flex-wrap: wrap;
 }
 .footer-section {
   flex: 0 1 auto;
-   min-width: 0;
+  min-width: 0;
 }
 .footer-section h3 {
   color: #fff;
@@ -292,6 +292,32 @@ main {
 }
 .footer-legal {
   text-align: end;
+}
+.legal-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+.legal-header h3 {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #fff;
+  font-weight: 700;
+}
+.legal-header .legal-sep {
+  color: #475569;
+}
+.legal-header strong {
+  color: #f1f5f9;
+  font-family: 'Courier New', monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.legal-header > span:not(.legal-sep) {
+  color: #94a3b8;
+  font-size: 0.78rem;
 }
 .footer-legal-grid {
   display: flex;
@@ -322,7 +348,7 @@ main {
   flex-direction: row;
   gap: 10px;
   align-items: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 .footer-contact-links a {
   display: inline-flex;
@@ -364,6 +390,9 @@ main {
   .footer-legal,
   .footer-contact {
     text-align: center;
+  }
+  .legal-header {
+    justify-content: center;
   }
   .footer-legal-grid > div {
     justify-content: center;
