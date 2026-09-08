@@ -276,7 +276,7 @@ main {
 .footer-row {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;  /* يدفع لليسار واليمين */
+  justify-content: space-between;
   gap: 24px;
   flex-wrap: wrap;
 }
@@ -289,66 +289,49 @@ main {
   font-size: 0.88rem;
   font-weight: 700;
   margin: 0 0 8px;
+  white-space: nowrap;
 }
+
+/* اليمين: معلومات قانونية */
 .footer-legal {
-  text-align: end;
-}
-.legal-header {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 6px;
-  margin-bottom: 6px;
-}
-.legal-header h3 {
-  margin: 0;
-  font-size: 0.88rem;
-  color: #fff;
-  font-weight: 700;
-}
-.legal-header .legal-sep {
-  color: #475569;
-}
-.legal-header strong {
-  color: #f1f5f9;
-  font-family: 'Courier New', monospace;
-  font-size: 0.78rem;
-  font-weight: 700;
-}
-.legal-header > span:not(.legal-sep) {
-  color: #94a3b8;
-  font-size: 0.78rem;
-}
-.footer-legal-grid {
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  font-size: 0.78rem;
+  align-items: flex-end;  /* RTL: كل شي على اليمين */
 }
-.footer-legal-grid > div {
+.footer-legal-line {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   gap: 6px;
-  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.78rem;
 }
-.footer-legal-grid > div > span:first-child {
-  color: #94a3b8;
+.footer-legal-line .sep {
+  color: #475569;
 }
-.footer-legal-grid > div > strong {
+.footer-legal-line strong {
   color: #f1f5f9;
   font-family: 'Courier New', monospace;
   font-size: 0.75rem;
   font-weight: 700;
 }
+.footer-legal-line > span:not(.sep) {
+  color: #94a3b8;
+}
+
+/* اليسار: تواصل */
 .footer-contact {
-  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* يوسّط h3 فوق Telegram (الوسط) */
 }
 .footer-contact-links {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 12px;  /* تباعد بين الخيارات الثلاث */
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .footer-contact-links a {
   display: inline-flex;
@@ -359,10 +342,13 @@ main {
   font-size: 0.78rem;
   padding: 2px 0;
   transition: color 0.2s;
+  white-space: nowrap;
 }
 .footer-contact-links a:hover {
   color: var(--primary);
 }
+
+/* الوسط: Copyright */
 .footer-copy {
   flex: 0 0 auto;
   text-align: center;
@@ -389,16 +375,10 @@ main {
   }
   .footer-legal,
   .footer-contact {
-    text-align: center;
-  }
-  .legal-header {
-    justify-content: center;
-  }
-  .footer-legal-grid > div {
-    justify-content: center;
-  }
-  .footer-contact-links {
     align-items: center;
+  }
+  .footer-legal-line {
+    justify-content: center;
   }
 }
 @media (max-width: 768px) {
