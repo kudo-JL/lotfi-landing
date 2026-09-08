@@ -265,10 +265,12 @@ main {
 }
 .footer-section h3 {
   color: #fff;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   font-weight: 700;
-  margin: 0 0 8px;
+  margin: 0 0 14px;
   white-space: nowrap;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .footer-legal {
   display: flex;
@@ -289,14 +291,19 @@ main {
   gap: 6px;
   align-items: center;
 }
-.footer-legal-line .sep { color: #475569; }
+.footer-legal-line .legal-number {
+  color: #f1f5f9;
+  font-family: 'Courier New', monospace;
+  font-weight: 700;
+  font-size: 0.78rem;
+}
 .footer-legal-line strong {
   color: #f1f5f9;
   font-family: 'Courier New', monospace;
   font-size: 0.75rem;
   font-weight: 700;
 }
-.footer-legal-line > div > span:not(.sep) {
+.footer-legal-line > div > span {
   color: #94a3b8;
 }
 .footer-contact {
