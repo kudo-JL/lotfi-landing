@@ -319,9 +319,10 @@ main {
 }
 .footer-contact-links {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
-  align-items: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap; 
 }
 .footer-contact-links a {
   display: inline-flex;
