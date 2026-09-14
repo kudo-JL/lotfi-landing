@@ -20,7 +20,10 @@ const translations = {
     statFree: "مجاني",
     
     // Projects section
-    ctabannerTitle: "إذا أردت الحصول على  تطبيق مجاني لكنك تواجه صعوبة في إيجاده أخبرنا به وسننشئه لك بثمن رمزي",
+    ctabannerTitle: "إذا أردت الحصول على تطبيق مجاني لكنك تواجه صعوبة في إيجاده أخبرنا به وسننشئه لك بثمن رمزي",
+    ctaEmail: "راسلنا",
+    ctaWhatsApp: "واتساب",
+    ctaTelegram: "تلجرام",
     projectsTitle: "مشاريعي",
     projectsDesc: "قائمة بكل المشاريع — الشغالة والقادمة.",
     
@@ -82,6 +85,9 @@ const translations = {
     statUpcoming: "Projets à venir",
     statFree: "Gratuit",
     ctabannerTitle: "Si vous souhaitez obtenir une application gratuite mais que vous avez du mal à trouver,dites-le-nous et nous vous l'obtiendrons pour un prix symbolique",
+    ctaEmail: "Contactez-moi",
+    ctaWhatsApp: "WhatssApp",
+    ctaTelegram: "Telegram",
     projectsTitle: "Mes projets",
     projectsDesc: "Liste de tous les projets — en ligne et à venir.",
     statusLive: "En ligne",
@@ -136,6 +142,9 @@ const translations = {
     statUpcoming: "Upcoming projects",
     statFree: "Free",
     ctabannerTitle: "If you want a free app but are having trouble finding it, tell us and will create it for you for a nominal price",
+    ctaEmail: "Contact-me",
+    ctaWhatsApp: "WhatssApp",
+    ctaTelegram: "Telegram",
     projectsTitle: "My projects",
     projectsDesc: "List of all projects — live and upcoming.",
     statusLive: "Live",
