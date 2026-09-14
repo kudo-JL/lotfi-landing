@@ -141,7 +141,7 @@ const translations = {
     statLive: "Live project",
     statUpcoming: "Upcoming projects",
     statFree: "Free",
-    ctabannerTitle: "If you want a free app but are having trouble finding it, tell us and will create it for you for a nominal price",
+    ctabannerTitle: "If you want a Website or app but are having trouble finding it, tell us and will create it for you for a nominal price",
     ctaEmail: "Contact-me",
     ctaWhatsApp: "WhatssApp",
     ctaTelegram: "Telegram",
