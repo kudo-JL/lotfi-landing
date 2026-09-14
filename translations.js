@@ -20,6 +20,7 @@ const translations = {
     statFree: "مجاني",
     
     // Projects section
+    projectsTitle: "إذا أردت الحصول على  تطبيق مجاني لكنك تواجه صعوبة في إيجاده أخبرنا به وسننشئه لك بثمن رمزي",
     projectsTitle: "مشاريعي",
     projectsDesc: "قائمة بكل المشاريع — الشغالة والقادمة.",
     
@@ -80,6 +81,7 @@ const translations = {
     statLive: "Projet en ligne",
     statUpcoming: "Projets à venir",
     statFree: "Gratuit",
+    projectsTitle: "Si vous souhaitez obtenir une application gratuite mais que vous avez du mal à trouver,dites-le-nous et nous vous l'obtiendrons pour un prix symbolique",
     projectsTitle: "Mes projets",
     projectsDesc: "Liste de tous les projets — en ligne et à venir.",
     statusLive: "En ligne",
@@ -133,6 +135,8 @@ const translations = {
     statLive: "Live project",
     statUpcoming: "Upcoming projects",
     statFree: "Free",
+    projectsTitle: "إذا أردت الحصول على  تطبيق مجاني لكنك تواجه صعوبة في إيجاده أخبرنا به وسننشئه لك بثمن رمزي",
+    projectsTitle: "If you want a free app but are having trouble finding it, tell us and will create it for you for a nominal price",
     projectsTitle: "My projects",
     projectsDesc: "List of all projects — live and upcoming.",
     statusLive: "Live",
