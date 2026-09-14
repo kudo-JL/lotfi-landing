@@ -43,6 +43,30 @@ main {
   background-attachment: scroll;
   background-repeat: repeat, no-repeat, no-repeat, no-repeat, no-repeat;
 }
+.cta-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.btn-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  background: var(--primary);
+  color: white;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.btn-cta:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
 .projects h2 { font-size: 1.8rem; font-weight: 800; margin: 0 0 8px; }
 .muted { color: var(--muted); }
 .small { font-size: .85rem; }
