@@ -396,3 +396,26 @@ main {
   .hero-stats > div { padding: 8px 16px; }
   .hero-stats strong { font-size: 1.3rem; }
 }
+/* ============================================
+   CTA Banner — Bold + Centered + Red + Glow
+   ============================================ */
+.cta-banner p {
+  text-align: center;
+  font-weight: 800;
+  color: #e11d48;
+  font-size: 1.05rem;
+  margin: 0 0 16px;
+  animation: cta-glow 1.5s ease-in-out infinite;
+}
+
+@keyframes cta-glow {
+  0%, 100% {
+    opacity: 1;
+    text-shadow: 0 0 0px rgba(225, 29, 72, 0);
+  }
+  50% {
+    opacity: 0.8;
+    text-shadow: 0 0 20px rgba(225, 29, 72, 0.6),
+                 0 0 40px rgba(225, 29, 72, 0.3);
+  }
+}
